@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import ArchitecturePlayground from './ArchitecturePlayground'
 
 const themeOptions = [
   { label: 'Light', value: 'light' },
@@ -312,6 +313,8 @@ export default function SachinMalladeSite() {
             ))}
           </div>
         </section>
+
+        <ArchitecturePlayground />
 
         <section className="section-container section-shell py-20">
           <div className="feature-panel rounded-[32px] p-8 sm:p-10 lg:p-12">
